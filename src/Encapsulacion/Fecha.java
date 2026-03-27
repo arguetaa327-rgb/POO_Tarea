@@ -1,4 +1,4 @@
-package Encapsulasion;
+package Encapsulacion;
 
 public class Fecha {
 
