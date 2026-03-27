@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Persona p1 = new Persona("Alondra", "Argueta", 20);
-        Persona p2 = new Persona("Jose", "Lopez", 22);
-        Persona p3 = new Persona("Maria", "Perez", 19);
+        Persona p1 = new Persona("Alondra", "Argueta", 18);
+        Persona p2 = new Persona("Jose", "Lopez",32);
+        Persona p3 = new Persona("Maria", "Perez", 29);
 
         p1.mostrarDatos();
         p2.mostrarDatos();
