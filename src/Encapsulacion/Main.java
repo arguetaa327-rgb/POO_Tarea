@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Persona p1 = new Persona("Yuliana", "Argueta", 20);
-        Persona p2 = new Persona("Ana", "Lopez", 22);
-        Persona p3 = new Persona("Luis", "Perez", 19);
+        Persona p1 = new Persona("Alondra", "Argueta", 20);
+        Persona p2 = new Persona("Jose", "Lopez", 22);
+        Persona p3 = new Persona("Maria", "Perez", 19);
 
         p1.mostrarDatos();
         p2.mostrarDatos();
@@ -33,7 +33,7 @@ public class Main {
         pr1.mostrarInfo();
         pr2.mostrarInfo();
 
-        Cuenta cuenta = new Cuenta("Yuliana", 500);
+        Cuenta cuenta = new Cuenta("Alondra", 500);
 
         cuenta.depositar(200);
         cuenta.retirar(100);
@@ -41,7 +41,7 @@ public class Main {
 
         cuenta.verSaldo();
 
-        Libro l1 = new Libro("Java Basico", "Luis", 200);
+        Libro l1 = new Libro("Java Basico", "Jose", 200);
         Libro l2 = new Libro("Programacion", "Maria", 400);
         Libro l3 = new Libro("POO", "Carlos", 350);
 
